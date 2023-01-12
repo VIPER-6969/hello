@@ -1,0 +1,186 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Open+Sans&display=swap');
+
+body {
+    background-color: rgb(15 174 168);
+}
+
+.container {
+    display: flex;
+}
+
+#container {
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/low-poly-grid-haikei.png');
+    height: 100vh;
+}
+
+#login-page {
+    background-color: rgb(25 42 74 / 55%);
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border-color: #4e4ad08a;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.container2 {
+    margin-top: 100px;
+
+}
+
+#input1 {
+    background-color: rgb(178 204 255 / 20%);
+    outline-style: none;
+    border-width: 0px;
+    width: 270px;
+    display: block;
+    margin: auto;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#btn1 {
+    background-color: rgb(41 126 166);
+    border-width: 0px;
+    border: none;
+    color: white;
+    width: 50px;
+    height: 5vh;
+}
+
+.container3 {
+    background-image: url('/images/blue.png');
+    background-size: cover;
+    height: 100vh;
+    width: 98.7vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-box {
+    width: 95vw;
+    height: 95vh;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.joined {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    align-items: center;
+
+}
+
+.joined-user {
+    background-color: rgba(167, 215, 239, 0.249);
+    color: rgb(101, 101, 255);
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    height: 4vh;
+    padding: 2px;
+}
+
+.container4 {
+    width: 95vw;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.input2 {
+    width: 70vw;
+    height: 6vh;
+    border-radius: 5px;
+    border-color: blue;
+    font-size: large;
+    outline-style: none;
+    text-align: center;
+}
+
+.btn2 {
+    border-radius: 5px;
+    width: 15vw;
+    margin-left: 5px;
+    border-color: blue;
+    font-size: large;
+}
+
+.messages {
+    height: 83vh;
+    margin-top: 8px;
+}
+
+.message1 {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 35vw;
+    word-wrap: break-word;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: rgb(235, 230, 255);
+}
+
+.left {
+    justify-content: flex-start;
+    padding-left: 1vw;
+    padding: 4px;
+}
+
+.right {
+    justify-content: flex-end;
+    margin-right: 10px;
+    padding: 4px;
+}
+
+.first {
+    width: 95vw;
+    height: fit-content;
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+}
+
+.name1 {
+    margin-left: 3vw;
+    display: inline;
+    font-family: 'Dosis', sans-serif;
+}
+
+.name2 {
+    margin-right: 3vw;
+    float: right;
+    font-family: 'Dosis', sans-serif;
+}
+
+.flow {
+    overflow-y: visible;
+}
+
+.active {
+    display: none;
+}

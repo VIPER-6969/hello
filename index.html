@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/chat.ico" type="image/x-ico">
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div id="login-page" class="login-page">
+            <div class="login">
+                <form action="" id="form1">
+                    <div class="container2">
+                        <input type="text" id="input1" class="input1">
+                    </div>
+                    <div class="btn">
+                        <button id="btn1">Enter</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container3 active" id="container3">
+        <div class="msg-box">
+            <div class="messages" id="type-box">
+            </div>
+            <form action="#">
+                <div class="container4" id="container4"><input type="text" name="" id="input" class="input2">
+                    <button class="btn2" id="btn2" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="http://localhost:8000/socket.io/socket.io.js"></script>
+<script src="frontend.js"></script>
+
+</html>
